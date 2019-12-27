@@ -79,6 +79,10 @@ col-12 {
     padding: 10px;
 }
 
+.sitePadding{
+	padding: 13px 5em;
+}
+
 #row1_service {
    padding: 13px 5em;
 }
@@ -97,4 +101,9 @@ col-12 {
 
 #row2_About {
 	padding: 13px 10em;
+}
+
+#row2_proMan {
+	padding: 13px 10em;
+	min-width: 400px;
 }
