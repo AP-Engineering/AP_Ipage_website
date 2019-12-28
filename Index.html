@@ -11,9 +11,9 @@
 </head>
 
 <body>
-<header>
+<header class="top_Nav">
 	<nav class="box" id="end"></nav>
-  	<nav class="box" id="six"><a href="News-and-Articles.html" tabindex="6" title="News" target="_self">News</a></nav>
+  	<nav class="box" id="six"><a href="https://www.apeng.ca/wordpress/" tabindex="6" title="News" target="_self">News</a></nav>
   	<nav class="box" id="five"><a href="Products-and-Manuals.html" tabindex="5" title="Product and Manuals" target="_self">Product and Manuals</a></nav>
   	<nav class="box" id="four"><a href="About-Us.html" tabindex="4" title="About us" target="_self">About us</a></nav>
   	<nav class="box" id="three"><a href="Contact.html" tabindex="3" title="Contact" target="_self">Contact</a></nav>
@@ -24,56 +24,57 @@
 	</div>
 </header>
 <main>
-  <!---- First row in website just below the header ------------>
-  <div class="row" style="padding-top: 120px;" id="row1">
-    <col-7>
-      <div class="container"> 
-	  	<img src="Images/IMG_3923_d800-1.jpg" alt="" class="pic" id="mainPic"/> 
-       	  <div class="centered" id="large">Automation<br>Control<br>SCADA</div>
+  <section class="sitePadding">
+      <!---- First row in website just below the header ------------>
+    <div class="row" style="padding-top: 120px;" id="row1">
+      <col-7>
+        <div class="container"> 
+          <img src="Images/IMG_3923_d800-1.jpg" alt="" class="pic" id="mainPic"/> 
+          <div class="centered" id="large">Automation<br>Control<br>SCADA</div>
+        </div>
+      </col-7>
+      <col-5>
+        <section class="R1Right">
+          <h2>About</h2>
+          <p>AP Engineering is headquartered in Campbell River, BC and can assist with automation and control issues as they arise. Though not complete, a sample list is provided below. Give us a call today at 250-201-3720 to find out how we can help each other! <a href="Contact.html" title="Contact" target="new">Contact</a> </p>
+          <p></p>
+          <ul style="list-style-type: square;">
+            <li>PLC programming, design, and maintenance</li>
+            <li>HMI programming, design, and maintenance</li>
+            <li>Migration of obsolete equipment to today's standards</li>
+            <li>Service contracts, to support ongoing operations</li>
+            <li>Advanced Control methods; PID loop tuning, Feed-forward control</li>
+            <li>Ethernet, OPC, Serial communications, Remote support</li>
+            <li>VFD, SCADA Master Plan, Troubleshooting various issues</li>
+          </ul>
+          <p></p>
+        </section>
+      </col-5>
       </div>
-    </col-7>
-    <col-5>
-      <section class="R1Right">
-        <h2>About</h2>
-        <p>AP Engineering is headquartered in Campbell River, BC and can assist with automation and control issues as they arise. Though not complete, a sample list is provided below. Give us a call today at 250-201-3720 to find out how we can help each other! <a href="Contact.html" title="Contact" target="new">Contact</a> </p>
-        <p></p>
-        <ul style="list-style-type: square;">
-          <li>PLC programming, design, and maintenance</li>
-          <li>HMI programming, design, and maintenance</li>
-          <li>Migration of obsolete equipment to today's standards</li>
-          <li>Service contracts, to support ongoing operations</li>
-          <li>Advanced Control methods; PID loop tuning, Feed-forward control</li>
-          <li>Ethernet, OPC, Serial communications, Remote support</li>
-          <li>VFD, SCADA Master Plan, Troubleshooting various issues</li>
-        </ul>
-        <p></p>
-      </section>
-    </col-5>
+    <div class="row" id="row2">
+      <col-12>
+        <h2>What We Do</h2>
+      </col-12>
   </div>
-  <div class="row" id="row2">
-    <col-12>
-      <h2>What We Do</h2>
-    </col-12>
-</div>
-  <!---------------Gallery of service Highlights-------------------
+    <!---------------Gallery of service Highlights-------------------
 		Three columns; picture on top, description below 
 			There is padding around each column 15px------------->
-  <div class="row" id="row3">
+    <div class="row" id="row3">
     <section>
-      <!---service1--->
-<col-3>
-  <div class="Padding">
-				<!---pic onTop------->
-				<img src="Images/2017-12-11_15-07-29_403_d400.jpeg" alt="" width="400" height="300" class="picGallery"/>
-				<!-------Description with padding on top------->
-				<div class="BBlue">
-					  <h3>Control Software Design</h3>
-					  <p>AP Engineering is not affiliated with a specific vendor and thus can assist with objective recommendation for your automation project.<br>
-					  We are experienced with Rockwell / Allen-bradley, Horner...</p>
-				</div>
-			</div>
-     	 </col-3>
-      <!---Service2-->
+    <!---service1--->
+  <col-3>
+    <div class="Padding">
+      <!---pic onTop------->
+      <img src="Images/2017-12-11_15-07-29_403_d400.jpeg" alt="" width="400" height="300" class="picGallery"/>
+      <!-------Description with padding on top------->
+      <div class="BBlue">
+        <h3>Control Software Design</h3>
+        <p>AP Engineering is not affiliated with a specific vendor and thus can assist with objective recommendation for your automation project.<br>
+          We are experienced with Rockwell / Allen-bradley, Horner...</p>
+        </div>
+      </div>
+    </col-3>
+    <!---Service2-->
 			
 		<col-3>
 			<div class="Padding">
@@ -110,6 +111,7 @@
 		</col-3>
 	</section>
 	</div>
+    </section>
 <!--------------Footer------------>	
 	<footer style="padding:5px;">
 		<div class="row" id="row4">
@@ -131,4 +133,5 @@
 
 </body>
 </html>
+
 

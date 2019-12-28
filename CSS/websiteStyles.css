@@ -4,6 +4,7 @@ body {
     font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
     font-size: medium;
     background: #FFFFFF;
+    min-width: 700px;
 }
 h2{
     color: #2A6FC3;	
@@ -86,9 +87,10 @@ Nav {
     background-color: #4D4949;
     color: #FFFFFF;
     text-align: center;
-    height: 200px;
-	overflow: hidden;
-	text-overflow: ellipsis;
+    height: 225px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
 }
 .txtMiddle{
 	text-align: center;
@@ -209,6 +211,7 @@ footer{
 
 #servicePic {
 	height: 200px;
+  
 }
 
 #SerPic1 {
@@ -244,4 +247,8 @@ footer{
 }
 .AboutMxWd {
 	min-width: 300px;
+}
+/*---header with navigation bar------*/
+.top_Nav {
+    min-width: 700px;
 }
