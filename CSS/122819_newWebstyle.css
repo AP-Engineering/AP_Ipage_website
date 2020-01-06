@@ -1,0 +1,393 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,
+html *{/*removing styling from all browser types - blank slate*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+
+body {
+    min-width: 400px;
+}
+ul {
+    list-style-type: square;
+   
+}
+/*to space the AL Services in the middle - center*/
+
+
+.style-topRow-Pic{
+    height: 200px;
+    width: 100%;
+    padding-top: 13px;
+    
+}
+/*------------For putting text over image -----------------
+	<div class="container">
+		image here
+		<div class="location_of_text">Text</div>
+	</div>
+*/
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/*------------End of Putting Text over Image ------------*/
+
+/*-------Formatting of LOGO, Nav and footer -------------*/
+.style-logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/*remove the bullet points from the navigation*/
+.style-nav ul {
+    list-style-type: none;
+}
+/* adjust the look of the navigation bar*/
+.style-nav ul li a {
+    text-align: center;
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: #3F48CC;
+    background-color: #C8C8C8;
+}
+/*when the mouse hovers over the link*/
+.style-nav ul li a:hover {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.style-footer {
+    background-color: #C8C8C8;
+    height: 100px; 
+}
+
+ .style-footer-left {
+    text-align: left;
+	align-content: center;
+	top: 0;
+	left: 0;
+	padding: 37px 0px 0px 10px;
+}
+
+.style-footer-middle {
+    text-align: center;
+	align-content: center;
+	top: 0;
+	padding:30px 5px;
+}
+
+.style-footer-right {
+    text-align: right;
+	top: 0;
+	Right: 0;
+	Padding: 30px 10px 0px 0px;
+}
+/*------END Formatting of LOGO, Nav and footer--------*/
+
+
+.Pic-Main {
+    /*--shrink pic to screen size*/  
+    width: 400px;
+}
+
+.Pic-Service {
+	width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
+}
+
+#txtOverPic {
+    font-size: 24pt;
+    font-weight:900;
+    text-shadow: 2px 1px #000000;
+    padding-bottom: 15px;
+    padding-right: 39px;   
+}
+
+.style-About {
+    padding: 0px 13px  ;
+    text-align: justify;
+}
+
+.style-About ul {
+    list-style-type: square;
+    padding: 13px 40px
+
+}
+
+.style-headings {
+    color: #3F48CC;
+    text-align: center;
+    padding: 13px 0px;
+}
+
+
+
+.width_3 h3 {
+    text-align: center;
+    padding: 13px 0px;
+}
+
+.width_3 p {
+    padding: 13px;
+}
+
+.width_3 ul {
+    padding: 0px 40px;
+}
+
+.width_3 a {
+    text-transform: uppercase;
+}
+
+.width_6 h1 {
+    color: #3F48CC;
+    padding: 13px;
+    text-align: center;
+}
+.width_6 h4 {
+    color: #3F48CC;
+    padding: 13px;
+    text-align: center;
+}
+.width_6 p {
+    padding: 0px 13px 13px;
+    text-align: justify;
+}
+
+.width_6 ul {
+    list-style-type: square;
+    padding: 13px 40px;
+}
+.width_8 h2 {
+    color: #3F48CC;
+    padding: 13px;
+    text-align: center;   
+}
+.width_8 p {
+    padding: 0px 13px ;
+    text-align: justify;
+}
+.width_8 ul {
+    padding: 13px 40px;
+}
+
+#mobile-hidden {
+    display: none;
+}
+#mobile-hidden2{
+    display: none;
+}
+
+.Service-Pic {
+    width: 100%;
+    height: 200px;
+    background: contain;
+    display: block;
+    padding: 13px;
+    
+}
+
+#hidden {
+    display: none;
+}
+.txtCentre {
+    display: inline-block;
+}
+#contactInfo p{
+    padding-bottom: 20px;
+    text-align: center; 
+}
+.style-product-pic {
+    overflow:hidden;
+	background-size: contain;
+	width: 100%;
+	height: 300px;
+  
+}
+/*------------------------------------------------------------------------*/
+/*Tablet view------------------------------------------------------------*/
+@media (min-width: 768px){
+    .style-nav ul li {
+        display: inline-block;
+    }
+    
+    .style-nav ul {
+        text-align: center;
+    }
+    
+    .Pic-Main {
+        padding: 15px 0px 0px;
+        width: 350px;
+    }
+    
+    
+    .style-About {
+        padding: 0px 10px 0px 0px;
+        height: 283px;
+        overflow:hidden;
+        
+    }
+    
+    .style-About ul {
+        padding: 5px 5px 5px 17px
+    }
+    /*--Adjust the row width for a col-6; they should be equal to the amount of columns 
+            IE 3 columns width = 33.333%,*/
+    
+    .width_3 {
+        width: 25%;
+    }
+    .width_4 {
+        width: 33.33%;
+    }
+    .width_6 {
+        width: 50%;
+    }
+    .width_8 {
+        width: 66.66%;
+    }
+    /*-- END adjust the row width ---------------------*/
+
+    .Pic-Service {
+        width: 100%;
+        padding-left: 7px;
+    }
+
+    #allServices {
+        top: 50%;
+        bottom: 50%;
+        display: block;
+    }
+
+    #hidden {
+        opacity: 0;
+        display: block;
+    }
+    
+    #mobile-hidden {
+        display: block;
+    }
+    #mobile-hidden2{
+        display: block;
+    }
+    .Service-Pic {
+        height: 100%;
+    }
+    .txtCentre {
+        
+          display:inline-block;
+    }
+
+    #contactInfo {
+        padding-top: 120px
+        
+    }
+    #style-contactForm {
+        padding: 0px 40px;
+    }
+    .style-product-pic {
+        padding: 13px;
+    }
+}
+/*-------------------------------------------------------------------*/
+/*Desktop view-----------------------------------------------------*/
+@media (min-width: 1024px){
+    
+    header{
+        height: 140px;
+    }
+    .style-logo {
+        float: left;
+    }
+    
+    .style-nav {
+        float: right;
+        padding: 53px;
+    }
+    
+    /* - width adjustments for rows*/
+    .width_6 {
+        width: 50%;
+    }
+    .width_3 {
+        width: 25%;
+    }
+    /* - END width adjustments for rows*/
+    
+    .Pic-Main {
+        width: 90%;
+    }
+    .style-About {
+        padding-right: 30px;
+        height: 100%;
+    }
+    .style-About ul {
+        padding: 20px 40px;
+    }
+    .style-About ul li {
+        padding-bottom: 7px
+    }
+    #hidden {
+        opacity: 0;
+        display: block;
+    }
+    .desktop-padding{
+        padding-left: 13%;
+        padding-right: 13%
+    }
+}
+
+
+/*-------------------------------------------------------------------*/
+/*Large Desktop----------------------------------------------------*/
+@media (min-width: 1350px){
+    #mobile-hidden2{
+        display: none;
+    }
+    
+}
+.txtCentre_container {
+    text-align: center;
+}
