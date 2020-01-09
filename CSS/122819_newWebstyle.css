@@ -10,7 +10,7 @@ html *{/*removing styling from all browser types - blank slate*/
 }
 
 body {
-    min-width: 400px;
+    font-size: large;
 }
 ul {
     list-style-type: square;
@@ -113,6 +113,7 @@ ul {
 	align-content: center;
 	top: 0;
 	padding:30px 5px;
+    font-size: medium;
 }
 
 .style-footer-right {
@@ -171,6 +172,7 @@ ul {
 
 .width_3 p {
     padding: 13px;
+    text-align: justify;
 }
 
 .width_3 ul {

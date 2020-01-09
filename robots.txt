@@ -2,7 +2,6 @@ User-Agent: *
 Disallow: /mobile_old/
 Disallow: /Templates/
 Disallow: /Documents/
-Disallow: /CSS/
 Disallow: /.gitattributes
 
 Sitemap: https://www.apeng.ca/sitemap.xml
