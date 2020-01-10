@@ -16,6 +16,9 @@ ul {
     list-style-type: square;
    
 }
+footer {
+    font-size: medium;
+}
 /*to space the AL Services in the middle - center*/
 
 
@@ -113,7 +116,7 @@ ul {
 	align-content: center;
 	top: 0;
 	padding:30px 5px;
-    font-size: medium;
+
 }
 
 .style-footer-right {
@@ -248,6 +251,17 @@ ul {
 	height: 300px;
   
 }
+
+.txtCentre_container {
+    text-align: center;
+}
+
+/* mobile only items taht will be hidden in all other views*/
+
+
+
+/*  END of mobile only items ----------------------------*/
+
 /*------------------------------------------------------------------------*/
 /*Tablet view------------------------------------------------------------*/
 @media (min-width: 768px){
@@ -389,7 +403,4 @@ ul {
         display: none;
     }
     
-}
-.txtCentre_container {
-    text-align: center;
 }
