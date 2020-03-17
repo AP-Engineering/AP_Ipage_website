@@ -28,6 +28,8 @@ footer {
     padding-top: 13px;
     
 }
+
+
 /*------------For putting text over image -----------------
 	<div class="container">
 		image here
@@ -256,6 +258,26 @@ footer {
     text-align: center;
 }
 
+.P_odd {
+    text-align: justify;
+    padding: 15px;
+}
+.P_odd h3 {
+    text-align: center;
+}
+.P_odd p {
+    padding-top: 5px;
+}
+.P_even   {
+    text-align: justify;
+    padding: 15px;
+}
+.P_even h3 {
+    text-align: center;
+}
+.P_even p {
+    padding-top: 5px;
+}
 /* mobile only items taht will be hidden in all other views*/
 
 
@@ -402,5 +424,9 @@ footer {
     #mobile-hidden2{
         display: none;
     }
+    
+}
+
+.carousel-caption {
     
 }
