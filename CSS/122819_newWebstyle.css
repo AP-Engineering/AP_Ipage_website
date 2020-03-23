@@ -19,6 +19,9 @@ ul {
 footer {
     font-size: medium;
 }
+h1 {
+    text-align: center;
+}
 /*to space the AL Services in the middle - center*/
 
 
@@ -258,26 +261,6 @@ footer {
     text-align: center;
 }
 
-.P_odd {
-    text-align: justify;
-    padding: 15px;
-}
-.P_odd h3 {
-    text-align: center;
-}
-.P_odd p {
-    padding-top: 5px;
-}
-.P_even   {
-    text-align: justify;
-    padding: 15px;
-}
-.P_even h3 {
-    text-align: center;
-}
-.P_even p {
-    padding-top: 5px;
-}
 /* mobile only items taht will be hidden in all other views*/
 
 
@@ -311,7 +294,7 @@ footer {
     .style-About ul {
         padding: 5px 5px 5px 17px
     }
-    /*--Adjust the row width for a col-6; they should be equal to the amount of columns 
+    /*--Adjust the row width for a col-12; they should be equal to the amount of columns 
             IE 3 columns width = 33.333%,*/
     
     .width_3 {
@@ -427,6 +410,4 @@ footer {
     
 }
 
-.carousel-caption {
-    
-}
+
