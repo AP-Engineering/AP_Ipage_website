@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <dwsync>
-<file name=".gitattributes" server="ftp.apeng.ca//wb_apeng.ca/" local="132219736001750085" remote="132219963600000000" Dst="1" />
-<file name="robots.txt" server="ftp.apeng.ca//wb_apeng.ca/" local="132230828160943237" remote="132230936400000000" Dst="1" />
-<file name="sitemap.xml" server="ftp.apeng.ca//wb_apeng.ca/" local="132230019526568420" remote="132230896200000000" Dst="1" />
-<file name=".htaccess" server="ftp.apeng.ca//wb_apeng.ca/" local="132231027837956478" remote="132262095600000000" Dst="1" />
-<file name="About-Us.html" server="ftp.apeng.ca//wb_apeng.ca/" local="132230803134809644" remote="132230912400000000" Dst="1" />
-<file name="Contact.html" server="ftp.apeng.ca//wb_apeng.ca/" local="132230803876778007" remote="132230913000000000" Dst="1" />
-<file name="index.html" server="ftp.apeng.ca//wb_apeng.ca/" local="132230802278746218" remote="132230913000000000" Dst="1" />
-<file name="Products-and-Manuals.html" server="ftp.apeng.ca//wb_apeng.ca/" local="132231030747250081" remote="132262095600000000" Dst="1" />
-<file name="Services.html" server="ftp.apeng.ca//wb_apeng.ca/" local="132230803124562358" remote="132230913000000000" Dst="1" />
-<file name=".gitignore" server="ftp.apeng.ca//wb_apeng.ca/" local="132261978523709612" remote="132262095600000000" Dst="1" />
+
+<file name=".gitattributes" server="ftp.apeng.ca//wb_apeng.ca/" local="132219736000000000" remote="132219891600000000" Dst="-1" />
+<file name="robots.txt" server="ftp.apeng.ca//wb_apeng.ca/" local="132230828160000000" remote="132230864400000000" Dst="-1" />
+<file name="sitemap.xml" server="ftp.apeng.ca//wb_apeng.ca/" local="132290515834787003" remote="132290623800000000" Dst="2" />
+<file name=".htaccess" server="ftp.apeng.ca//wb_apeng.ca/" local="132231027837956478" remote="132290599800000000" Dst="2" />
+<file name="About-Us.html" server="ftp.apeng.ca//wb_apeng.ca/" local="132290479002294431" remote="132290599800000000" Dst="2" />
+<file name="Contact.html" server="ftp.apeng.ca//wb_apeng.ca/" local="132230803870000000" remote="132230841000000000" Dst="-1" />
+<file name="index.html" server="ftp.apeng.ca//wb_apeng.ca/" local="132230802278746218" remote="132290599800000000" Dst="2" />
+<file name="Products-and-Manuals.html" server="ftp.apeng.ca//wb_apeng.ca/" local="132231030747250081" remote="132290599800000000" Dst="2" />
+<file name="Services.html" server="ftp.apeng.ca//wb_apeng.ca/" local="132230803120000000" remote="132230841000000000" Dst="-1" />
+<file name="Projects.html" server="ftp.apeng.ca//wb_apeng.ca/" local="132290478998769338" remote="132290599800000000" Dst="2" />
+
 </dwsync>

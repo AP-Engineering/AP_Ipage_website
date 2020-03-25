@@ -19,6 +19,9 @@ ul {
 footer {
     font-size: medium;
 }
+h1 {
+    text-align: center;
+}
 /*to space the AL Services in the middle - center*/
 
 
@@ -28,6 +31,8 @@ footer {
     padding-top: 13px;
     
 }
+
+
 /*------------For putting text over image -----------------
 	<div class="container">
 		image here
@@ -289,7 +294,7 @@ footer {
     .style-About ul {
         padding: 5px 5px 5px 17px
     }
-    /*--Adjust the row width for a col-6; they should be equal to the amount of columns 
+    /*--Adjust the row width for a col-12; they should be equal to the amount of columns 
             IE 3 columns width = 33.333%,*/
     
     .width_3 {
@@ -404,3 +409,5 @@ footer {
     }
     
 }
+
+
