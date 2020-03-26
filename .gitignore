@@ -4,4 +4,6 @@
 ########################
 *.LCK
 
-
+# Ignore Wordpress directory #
+##############################
+/wordpress/*
