@@ -9,7 +9,7 @@
 
 .slider {
   height: 100%; /*320px;*/
-  width: 100%; /*was 680px;*/
+  width: 680px;
   margin: 40px auto 0;
   overflow: visible;
   position: relative;
@@ -46,31 +46,77 @@
 
 /* Each cycle time must be adjusted for the same time IE they all must have 30s or 45s*/
 .slider li.anim1 {
-  animation: cycle 30s linear infinite;
+  -webkit-animation: cycle 30s linear infinite;
+          animation: cycle 30s linear infinite;
 }
 
 .slider li.anim2 {
-  animation: cycle2 30s linear infinite;
+  -webkit-animation: cycle2 30s linear infinite;
+          animation: cycle2 30s linear infinite;
 }
 
 .slider li.anim3 {
-  animation: cycle3 30s linear infinite;
+  -webkit-animation: cycle3 30s linear infinite;
+          animation: cycle3 30s linear infinite;
 }
 
 .slider li.anim4 {
-  animation: cycle4 30s linear infinite;
+  -webkit-animation: cycle4 30s linear infinite;
+          animation: cycle4 30s linear infinite;
 }
 
 .slider li.anim5 {
-  animation: cycle5 30s linear infinite;
+  -webkit-animation: cycle5 30s linear infinite;
+          animation: cycle5 30s linear infinite;
 }
 
 .slider:hover li {
-  animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
 }
-/* End of the cyling times; each new item must be used in each testimonial IE li.anim1 for testimonial1 then li.anim2 for testimonalial2 etc*/
 
-/* For Each quote, you will also have to add another cycle; just copy and paste, but add cycle# plus in the above cycling times section*/
+@-webkit-keyframes cycle {
+  0% {
+    top: 0px;
+  }
+  4% {
+    top: 0px;
+  }
+  16% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  20% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  21% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  50% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  92% {
+    top: -325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  96% {
+    top: -325px;
+    opacity: 0;
+  }
+  100% {
+    top: 0px;
+    opacity: 1;
+  }
+}
+
 @keyframes cycle {
   0% {
     top: 0px;
@@ -113,6 +159,45 @@
   }
 }
 
+@-webkit-keyframes cycle2 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  16% {
+    top: -325px;
+    opacity: 0;
+  }
+  20% {
+    top: 0px;
+    opacity: 1;
+  }
+  24% {
+    top: 0px;
+    opacity: 1;
+  }
+  36% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  40% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  41% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
 @keyframes cycle2 {
   0% {
     top: -325px;
@@ -141,6 +226,45 @@
     z-index: 0;
   }
   41% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
+@-webkit-keyframes cycle3 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  36% {
+    top: -325px;
+    opacity: 0;
+  }
+  40% {
+    top: 0px;
+    opacity: 1;
+  }
+  44% {
+    top: 0px;
+    opacity: 1;
+  }
+  56% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  60% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  61% {
     top: -325px;
     opacity: 0;
     z-index: -1;
@@ -191,6 +315,45 @@
   }
 }
 
+@-webkit-keyframes cycle4 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  56% {
+    top: -325px;
+    opacity: 0;
+  }
+  60% {
+    top: 0px;
+    opacity: 1;
+  }
+  64% {
+    top: 0px;
+    opacity: 1;
+  }
+  76% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  80% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+  81% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+  100% {
+    top: -325px;
+    opacity: 0;
+    z-index: -1;
+  }
+}
+
 @keyframes cycle4 {
   0% {
     top: -325px;
@@ -230,6 +393,35 @@
   }
 }
 
+@-webkit-keyframes cycle5 {
+  0% {
+    top: -325px;
+    opacity: 0;
+  }
+  76% {
+    top: -325px;
+    opacity: 0;
+  }
+  80% {
+    top: 0px;
+    opacity: 1;
+  }
+  84% {
+    top: 0px;
+    opacity: 1;
+  }
+  96% {
+    top: 0px;
+    opacity: 1;
+    z-index: 0;
+  }
+  100% {
+    top: 325px;
+    opacity: 0;
+    z-index: 0;
+  }
+}
+
 @keyframes cycle5 {
   0% {
     top: -325px;
@@ -257,4 +449,16 @@
     opacity: 0;
     z-index: 0;
   }
+}
+
+@media (max-width: 700px) {
+    .slider {
+        width: 400px;
+    }
+    .slider li {
+        width: 400px;
+    }
+    .slider .quote {
+        font-size: 23px;
+    }
 }
