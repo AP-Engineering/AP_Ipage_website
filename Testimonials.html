@@ -19,12 +19,13 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="A stand-alone PID controller was removed and its functionality replaced by the use of an AB SLC 500 PLC. Items like turbidity and flow needed to be accounted for ...">
+<meta name="description" content="Recommendations posted here are taken from google reviews, linkedin, emails etc ...">
 <meta name="robots" content="index, follow">
 
-<title>Interesting Projects</title>
+<title>Testimonials</title>
 <link href="CSS/122819_newWebstyle.css" rel="stylesheet" type="text/css">
 <link href="CSS/columnStyles.css" rel="stylesheet" type="text/css">
+<link href="CSS/carousel.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -35,7 +36,7 @@
                 <li><a href=".">HOME</a></li>
                 <li><a href="About-Us.html">ABOUT US</a></li>
                 <li><a href="Projects.html">PROJECTS</a></li>
-<!--                <li><a href="Testimonials.html">TESTIMONIALS</a></li>-->
+                <li><a href="Testimonials.html" id="ActivePage">TESTIMONIALS</a></li>
             </ul>
         </nav>
     </header>
@@ -52,50 +53,36 @@
     <div class="desktop-padding"> 
         <div class="row">
             <col-12>
-                <h1>Projects</h1>            
+                <h1>Testimonials and Recommendations</h1> 
+                <!--<div class="content-slider">-->
+                  <div class="slider">
+                    <div class="mask">
+                      <ul>
+                        <li class="anim1">
+                          <div class="quote">Cliff has done excellent work for us.  Our SCADA system was failing and though some of the specific equipment was unfamilier to him, it took him very little time to research and understand it. He was able to get us back up and running and make improvements. He was also able to provide a great deal of training and education for myself so that I could do small adjustments that otherwise would have required a call out to a remote location. I really look forward to continuing to work with Cliff.</div>
+                          <div class="source">- Kevin Murphy</div>
+                        </li>
+                        <li class="anim2">
+                          <div class="quote">Cliff is an automation professional who gets results. I appreciate his accountability, punctuality, creativity, and attention to detail. In working at a busy Pulp and Paper Mill to minimize downtime on about 20 critical HMI interface replacements, he created a backwards/forwards compatible, scalable system for imaging stock PCs to create replacement HMIs at a fraction of the former cost. This was accomplished in a manner that enabled a non-technical person to follow well-documented, clear procedures for keeping the system alive in the long term.</div>
+                          <div class="source">- D.R. V.G.</div>
+                        </li>
+                        <li class="anim3">
+                          <div class="quote">Cliff has been very valuable to our organization in cleaning up and streamlining our SCADA system for the benefit of all the users of the system. His understanding of our processes has increased dramatically as well, which helps everyone communicate better at the worksite.</div>
+                          <div class="source">- Mark Zanders</div>
+                        </li>
+                        <li class="anim4">
+                          <div class="quote">Cliff demonstrated an exceptional understanding of the SCADA system with very little information on the rational of the existing logic. He was able to listen to the needs of the project and work at implementing the changes necessary to the operation.</div>
+                          <div class="source">- Jim Elliot</div>
+                        </li>
+                        <li class="anim5">
+                          <div class="quote">Thanks again for all your work last week. We could have been in real trouble if you hadn’t been so efficient with reprogramming the PLC and getting all three well pumps to run together. Your thoughts and ideas were constructive aninstrumental in figuring out solutions to the problem and ultimately getting the water flowing again before the busy long weekend.</div>
+                          <div class="source">- Mike H.</div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+<!--</div>-->
             </col-12>
-        </div>
-        <div class="row">
-            <col-12 class="width_6">
-
-                    <h4>MES (APQC) Software implementation (Lamb Weston – Oregon)</h4>
-                    <p>Rockwell Automation was brought in to implement an entire plant model, which created increased efficiency in production and cost savings. Working with Rockwell, the model was integrated into the existing plant systems. This involved items like creating and tuning cascading PID loops, OPC communications between different equipment and integrating the model into the existing control architecture</p>
-
-            </col-12>
-            <col-12 class="width_6">
-
-                    <h4>Standalone CL2 controller replacement (CVRD – BC)</h4>
-                    <p>A stand-alone PID controller was removed and its functionality replaced by the use of an AB SLC 500 PLC. Items like turbidity and flow needed to be accounted for in the design to ensure successful chlorination levels were reached. Feed forward control was added due to a large dead time, and operator control was added to the RSView32 HMI</p>
-
-             </col-12>
-        </div>
-        <div class="row">
-            <col-12 class="width_6">
-
-                    <h4>Modernization of the Sarasota SCADA system (Sarasota Government – Florida)</h4>
-                    <p>A path forward for connecting and modernizing the SCADA system across Sarasota County was developed. The engineering report was presented and funding secured for phase I implementation. This involved items such as creating standards and applying them, managing SCADA technicians, and centralizing services (Wonderware Galaxy, Historian, Change Management Software, License Servers, etc…)</p>
-
-            </col-12>
-            <col-12 class="width_6">
-                <div class="P_even">
-                    <h4>Ongoing Support and Maintenance (Gold River - BC)</h4>
-                    <p>AP Engineering worked with the Village to support their aging system until they were ready to implement a new design. This involved correcting items like: Level meters not functioning correctly, Pumps starting and stopping unexpectedly, Added alaming for specific events, fixing HMI objects that were not displaying information correctly, replacing a Chart Recorder with Digital DataLogger, etc..</p>
-                </div>
-            </col-12>
-        </div>
-        <div class="row">
-            <col-12 class="width_6">
-                <div class="P_odd">
-                    <h4>Receiving Line Controls (Lamb Weston – Washington)</h4>
-                    <p>Designed and implemented a new control system for the receiving line of a Lamb Weston plant; which included the use of remote ethernet based pneumatics. This involved writing code in the ControlLogix PLC (in function block, ladder, and structured text), while utilizing Plant-PAX objects and tying those objects to the FactoryTalk SE HMI. FAT testing was completed and the controls were successfully commissioned.</p>
-                </div>
-            </col-12>
-            <col-12 class="width_6">
-                <div class="P_even">
-                    <h4>Support and Maintenance (CVRD - BC)</h4>
-                    <p>I solved communication issues within the OSI PI Historian environment. An existing system continued to lose data due to poor connectivity between the central historian and the remote nodes. I redesigned the OPC communication pathways, added store-and-forward capabilities, as well as failover to virtually eliminate data loss. After the change, the system experienced downtime with the historian as well as remote node failures and still suffered zero data loss.</p>
-                </div>
-             </col-12>
         </div>
     </div>
        

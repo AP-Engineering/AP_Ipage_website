@@ -102,6 +102,13 @@ h1 {
     font-size: larger;
     font-weight: bold;
 }
+/*Used to highlight which page the viewer is on*/
+#ActivePage {
+    background-color: #0F0C0C;
+    color: #FFFFFF;
+    font-size: larger;
+    font-weight: bold;
+}
 
 .style-footer {
     background-color: #C8C8C8;
