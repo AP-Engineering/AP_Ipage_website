@@ -453,10 +453,10 @@
 
 @media (max-width: 700px) {
     .slider {
-        width: 400px;
+        width: 380px;
     }
     .slider li {
-        width: 400px;
+        width: 380px;
     }
     .slider .quote {
         font-size: 23px;
