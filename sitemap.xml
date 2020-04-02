@@ -13,11 +13,6 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.apeng.ca/.</loc>
-  <lastmod>2020-04-01T21:35:01+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
   <loc>https://www.apeng.ca/Services.html</loc>
   <lastmod>2020-04-01T21:35:01+00:00</lastmod>
   <priority>0.80</priority>
@@ -59,39 +54,14 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://apeng.ca/wordpress/category/a-p-engineering/</loc>
-  <lastmod>2020-03-30T02:18:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://apeng.ca/wordpress/2019/11/26/federal-provincial-funding-to-support-water-and-wastewater-services-in-b-c/</loc>
   <lastmod>2020-03-30T02:18:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://apeng.ca/wordpress/category/uncategorized/</loc>
-  <lastmod>2020-03-30T02:18:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://apeng.ca/wordpress/tag/wastewater/</loc>
-  <lastmod>2020-03-30T02:18:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://apeng.ca/wordpress/tag/water/</loc>
-  <lastmod>2020-03-30T02:18:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>https://apeng.ca/wordpress/2019/11/01/tasc-sitecommander-and-sccu/</loc>
   <lastmod>2020-03-30T02:18:12+00:00</lastmod>
   <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://apeng.ca/wordpress/tag/plc/</loc>
-  <lastmod>2020-03-30T02:18:12+00:00</lastmod>
-  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://apeng.ca/wordpress/2019/09/25/chart-recorder-replacement/</loc>
@@ -103,14 +73,5 @@
   <lastmod>2020-03-30T02:18:12+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://apeng.ca/wordpress/tag/cl2/</loc>
-  <lastmod>2020-03-30T02:18:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://apeng.ca/wordpress/tag/pid/</loc>
-  <lastmod>2020-03-30T02:18:12+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
+
 </urlset>
