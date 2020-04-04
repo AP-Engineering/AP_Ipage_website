@@ -3,5 +3,6 @@ Disallow: /mobile_old/
 Disallow: /Templates/
 Disallow: /Documents/
 Disallow: /.gitattributes
+Disallow: /git_scripts/
 
 Sitemap: https://www.apeng.ca/sitemap.xml
