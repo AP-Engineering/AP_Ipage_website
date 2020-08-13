@@ -5,47 +5,50 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
 <url>
-  <loc>https://www.apeng.ca/</loc>
-  <lastmod>2020-04-01T21:35:01+00:00</lastmod>
+  <loc>https://apeng.ca/.</loc>
+  <lastmod>2020-04-03T03:51:03+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://www.apeng.ca/Services.html</loc>
-  <lastmod>2020-04-01T21:35:01+00:00</lastmod>
+  <loc>https://apeng.ca/Services.html</loc>
+  <lastmod>2020-04-03T03:51:03+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.apeng.ca/Contact.html</loc>
-  <lastmod>2020-03-29T20:29:32+00:00</lastmod>
+  <loc>https://apeng.ca/Contact.html</loc>
+  <lastmod>2020-08-13T20:10:09+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.apeng.ca/About-Us.html</loc>
-  <lastmod>2020-03-29T20:29:32+00:00</lastmod>
+  <loc>https://apeng.ca/About-Us.html</loc>
+  <lastmod>2020-04-01T22:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.apeng.ca/Products-and-Manuals.html</loc>
-  <lastmod>2020-03-31T01:39:20+00:00</lastmod>
+  <loc>https://apeng.ca/Products-and-Manuals.html</loc>
+  <lastmod>2020-04-01T22:42:17+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.apeng.ca/Projects.html</loc>
-  <lastmod>2020-03-29T20:29:32+00:00</lastmod>
+  <loc>https://apeng.ca/Projects.html</loc>
+  <lastmod>2020-04-03T03:51:03+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.apeng.ca/Testimonials.html</loc>
-  <lastmod>2020-03-29T20:29:32+00:00</lastmod>
+  <loc>https://apeng.ca/Testimonials.html</loc>
+  <lastmod>2020-05-22T20:10:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
 <url>
   <loc>https://apeng.ca/wordpress/</loc>
-  <lastmod>2020-03-30T02:18:12+00:00</lastmod>
+  <lastmod>2020-08-13T23:05:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apeng.ca/wordpress/2020/08/13/signed-and-encrypted-emails/</loc>
+  <lastmod>2020-08-13T23:05:13+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
