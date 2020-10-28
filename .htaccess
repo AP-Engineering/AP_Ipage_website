@@ -1,4 +1,4 @@
-## This 
+
 <IfModule deflate_module>
     # Enable compression for the following file types.
     AddOutputFilterByType            \
