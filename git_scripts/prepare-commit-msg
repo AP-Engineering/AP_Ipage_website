@@ -1,4 +1,4 @@
 #!/bin/sh
 # Testing
 
-echo "# Testing to see if this works!" > $1
+echo "" > $1
