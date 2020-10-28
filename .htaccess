@@ -1,4 +1,4 @@
-## This file has to modified directly on the server and NOT HERE ##
+## This 
 <IfModule deflate_module>
     # Enable compression for the following file types.
     AddOutputFilterByType            \
