@@ -5,19 +5,21 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
 <url>
   <loc>https://apeng.ca/</loc>
-  <lastmod>2020-10-27T02:00:06+00:00</lastmod>
+  <lastmod>2021-10-08T04:40:04+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://apeng.ca/.</loc>
-  <lastmod>2020-10-27T02:00:06+00:00</lastmod>
+  <lastmod>2021-10-08T04:40:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://apeng.ca/Services.html</loc>
-  <lastmod>2020-10-28T21:10:05+00:00</lastmod>
+  <lastmod>2021-11-05T19:05:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -27,12 +29,12 @@
 </url>
 <url>
   <loc>https://apeng.ca/About-Us.html</loc>
-  <lastmod>2020-10-27T01:35:04+00:00</lastmod>
+  <lastmod>2020-10-30T15:00:09+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://apeng.ca/Products-and-Manuals.html</loc>
-  <lastmod>2020-10-27T01:00:05+00:00</lastmod>
+  <lastmod>2021-11-05T19:05:04+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
@@ -45,40 +47,124 @@
   <lastmod>2020-10-27T01:00:05+00:00</lastmod>
   <priority>0.64</priority>
 </url>
-
 <url>
   <loc>https://apeng.ca/wordpress/</loc>
-  <lastmod>2020-08-13T23:05:13+00:00</lastmod>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://apeng.ca/wordpress/2021/11/05/auto-fuel-system-for-cell-tower/</loc>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apeng.ca/wordpress/author/laverc/</loc>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apeng.ca/wordpress/category/a-p-engineering/</loc>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apeng.ca/wordpress/tag/cscape/</loc>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apeng.ca/wordpress/tag/hmi/</loc>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apeng.ca/wordpress/tag/horner/</loc>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apeng.ca/wordpress/tag/plc/</loc>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://apeng.ca/wordpress/2020/08/13/signed-and-encrypted-emails/</loc>
-  <lastmod>2020-08-13T23:05:13+00:00</lastmod>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apeng.ca/wordpress/tag/encryption/</loc>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apeng.ca/wordpress/tag/public-private-keys/</loc>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apeng.ca/wordpress/tag/secure-email/</loc>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apeng.ca/wordpress/2020/05/22/plc-programming-offsite/</loc>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apeng.ca/wordpress/tag/programming/</loc>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://apeng.ca/wordpress/2020/03/24/corona-update/</loc>
-  <lastmod>2020-03-30T02:18:12+00:00</lastmod>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://apeng.ca/wordpress/2019/11/26/federal-provincial-funding-to-support-water-and-wastewater-services-in-b-c/</loc>
-  <lastmod>2020-03-30T02:18:12+00:00</lastmod>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apeng.ca/wordpress/category/uncategorized/</loc>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apeng.ca/wordpress/tag/wastewater/</loc>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apeng.ca/wordpress/tag/water/</loc>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://apeng.ca/wordpress/2019/11/01/tasc-sitecommander-and-sccu/</loc>
-  <lastmod>2020-03-30T02:18:12+00:00</lastmod>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://apeng.ca/wordpress/2019/09/25/chart-recorder-replacement/</loc>
-  <lastmod>2020-03-30T02:18:12+00:00</lastmod>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://apeng.ca/wordpress/2018/05/30/stand-alone-cl2-pid-controller-replacement/</loc>
-  <lastmod>2020-03-30T02:18:12+00:00</lastmod>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apeng.ca/wordpress/tag/cl2/</loc>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://apeng.ca/wordpress/tag/pid/</loc>
+  <lastmod>2021-11-05T22:11:33+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
