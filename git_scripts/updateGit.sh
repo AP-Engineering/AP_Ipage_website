@@ -2,4 +2,4 @@
 
 cd ~
 cd public_html/public_html/
-exec git pull 
+exec git pull --no-edit
