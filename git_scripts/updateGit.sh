@@ -1,3 +1,5 @@
 #!/bin/sh
 
-exec git pull origin
+cd ~
+cd public_html/public_html/
+exec git pull 
